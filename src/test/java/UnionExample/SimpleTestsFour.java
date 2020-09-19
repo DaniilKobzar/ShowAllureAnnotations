@@ -98,7 +98,7 @@ public class SimpleTestsFour extends TestBaseUnion {
         });
 
         step("5. Сохранение профиля", () -> {
-            stepXpathClick("5.1 Выбрать чекбокс",
+            stepXpathClick("5.1 Выбрать чекбокс Я принимаю Соглашение о конфиденциальности...",
                     "//form[@name='FL']//input[@class='ng-pristine ng-untouched ng-valid ng-empty']");
             stepXpathClick("5.2 Нажать кнопку Сохранить",
                     "//form[@name='FL']//button[@class='new-green-btn']");
