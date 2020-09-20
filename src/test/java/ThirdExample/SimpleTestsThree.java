@@ -11,7 +11,7 @@ public class SimpleTestsThree extends TestBase {
     AllureSteps step = new AllureSteps();
 
 
-    @Story("Тест 1")
+    @Story("Тест #1 Проверка авторизации")
     @Description("Авторизация")
     @DisplayName("Проверка авторизации")
     @Severity(value = SeverityLevel.CRITICAL)
@@ -23,7 +23,7 @@ public class SimpleTestsThree extends TestBase {
 
     }
 
-    @Story("Тест 2")
+    @Story("Тест #2 Проверка изменения ФИО клиента")
     @Description("Авторизоваться, перейти в профиль клиента, изменить ФИО и сохранить")
     @DisplayName("Проверка изменения ФИО клиента")
     @Severity(value = SeverityLevel.CRITICAL)

@@ -7,21 +7,21 @@ import static io.qameta.allure.Allure.step;
 
 public class Helpers {
 
-    public static void stepXpathClick(String stepName, String Xpath) {
+    public static void stepXpathClick(String stepName, String xPath) {
         step(stepName, () -> {
-            $(byXpath(Xpath)).click();
+            $(byXpath(xPath)).click();
         });
     }
 
-    public static void stepXpathSendKeys(String stepName, String Xpath, String text) {
+    public static void stepXpathSendKeys(String stepName, String xPath, String text) {
         step(stepName, () -> {
-            $(byXpath(Xpath)).sendKeys(text);
+            $(byXpath(xPath)).sendKeys(text);
         });
     }
 
-    public static void stepXpathClear(String stepName, String Xpath) {
+    public static void stepXpathClear(String stepName, String xPath) {
         step(stepName, () -> {
-            $(byXpath(Xpath)).clear();
+            $(byXpath(xPath)).clear();
         });
     }
 
