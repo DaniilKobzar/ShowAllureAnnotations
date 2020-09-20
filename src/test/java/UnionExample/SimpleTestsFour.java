@@ -14,8 +14,8 @@ public class SimpleTestsFour extends TestBaseUnion {
 
     Users user = new Users();
 
-    @Story("Тест #1")
-    @Description("Авторизация")
+    @Story("Авторизация")
+    @Description("Авторизоваться клиентом")
     @DisplayName("Проверка авторизации")
     @Severity(value = SeverityLevel.CRITICAL)
     @Owner(value = "Данила Мастер")
@@ -52,11 +52,10 @@ public class SimpleTestsFour extends TestBaseUnion {
 
     }
 
-    @Story("Тест #2")
+    @Story("Изменения данных клиента")
     @Description("Авторизоваться, перейти в профиль клиента, изменить ФИО и сохранить")
     @DisplayName("Проверка изменения ФИО клиента")
     @Severity(value = SeverityLevel.CRITICAL)
-    @Flaky
     @Owner(value = "Данила Мастер")
     @Link(value = "Uxcrowd", url = "https://preprod.uxcrowd.ru/")
     @Test
